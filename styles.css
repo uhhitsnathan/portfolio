@@ -5,10 +5,10 @@
  }
  /*This section is for the menu bar at the top*/
  .menu-container{
-   color: #ffff33;
-   border: 10px; 
-   background-color: #36393F;
-   padding: 20px 0;
+   color: whitesmoke;
+   border: 5px solid #122620; 
+   background-color: #c0a082;
+   padding: 10px 0;
    display: flex;
    justify-content: center; /*add this*/
   
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: flex-end;
  }
- .login{
+ .projects{
     margin-left: 20px;
  }
  .menu{
@@ -26,21 +26,23 @@
     display: flex;
     justify-content: space-around;
  }
- .signup{
+ .home{
     margin-left: auto;
    
  }
- .application{
+ .about
+{
     margin-left: 20px;
  }
 
-
-/*This section is for the section which includes the hero text and description*/
  
  .header-container{
-    color: #ffff33;
-    border:5px solid rebeccapurple;
-    background-color: #36393F;
+    color: whitesmoke;
+    border-bottom:5px solid #122620;
+    border-left:5px solid #122620;
+    border-right:5px solid #122620;
+    background-color: #c0a082;
+    height: 1000px;
  }
 
  .question{
@@ -49,22 +51,28 @@
     margin-top: 50px;
 
  }
-p{
-    text-align: center;
+.intro-paragraph{
+font-size: 30px;
 }
 
+.right-side-art{
+    height: auto;
+    max-width: 5;
+   
+}
  .header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
+    
  }
 /*Middle Section, which will include a title, 4 pictures, and another small description*/
 .body-container{
     padding: 0;
     margin: 0;
-    color: #ffff33;
-    background-color: #36393F;
+    color: whitesmoke;
+    background: linear-gradient(#C59E6B, #be9e80) #C59E6B;
     align-content: center;
     
 }
@@ -90,7 +98,7 @@ h2{
     height: 300px;
     display: flex;
     flex-direction: column;
-    background-color: #454545;
+    background-color: #C59E6B;
     padding: 0 200px;
 }
 .body-quote p{
@@ -110,47 +118,6 @@ b{
 
 }
 
-.apply-now{
-    color: #fff333;
-    background-color: #454545;
-    margin: 5px 5px;
-    padding: 20px 20px;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    border-color: rebeccapurple;
-}
-.apply-item{
-    flex: 1;
-}
-.apply-text{
-    text-align: left;
-}
-.apply-text p{
-    font-size: 20px;
-    color: #ffff33;
-    text-align: left;
-}
-h3 {
-    color: #ffff33;
-    padding: 0;
-    font-size: 20px;
-    margin: 30px 0px 0px 50px;
-}
-.apply-button{
-    border-color: rebeccapurple;
-    border-radius: 10px;
-    background-color: #454545;
-    padding: 5px 25px;
-    font-size: 30px;
-}
-button{
-    font-size: 40px;
-    border-radius: 10px;
-    border-color: rebeccapurple;
-}
-
 
 
 
@@ -162,6 +129,6 @@ button{
   .footer-item {
     color: #ffff33;
     background-color: black;
-    height: 20px;
+    height: auto;
     flex: 1;
   }
