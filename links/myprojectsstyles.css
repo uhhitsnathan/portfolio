@@ -27,10 +27,28 @@
     padding-left: 40px;
     padding-right: 40px;
     color: #fff;
-  }
-  h3{
     font-size: 35px;
+
   }
+  .wrapper{
+    display: grid;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 2em;
+    grid-template-columns: 55% 45%;
+    grid-gap: 1em;
+    grid-auto-rows: 100px;
+  }
+
+  .text{
+ background-color: red;
+ 
+
+  }
+  .projectimg{
+  background-color: blue;
+  }
+ 
   
   .navigation__checkbox {
     display: none;
