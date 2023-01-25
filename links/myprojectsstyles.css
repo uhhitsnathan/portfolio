@@ -31,13 +31,12 @@
 
   }
   .wrapper{
-    display: grid;
-    margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 2em;
-    grid-template-columns: 55% 45%;
-    grid-gap: 1em;
-    grid-auto-rows: 100px;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
   }
 
   .text{
@@ -48,7 +47,38 @@
   .projectimg{
   background-color: blue;
   }
- 
+  .begBL{
+    margin-top: 20px;
+    max-width: 700px;
+  }
+.last-paragraph{
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   .navigation__checkbox {
     display: none;
